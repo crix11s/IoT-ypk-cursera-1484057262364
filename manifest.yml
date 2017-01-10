@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-ypk-cursera
+  host: IoT-ypk-cursera
+  disk_quota: 1024M
+  services:
+  - IoT-ypk-cursera-cloudantNoSQLDB
+  - IoT-ypk-cursera-iotf-service
+  - availability-monitoring-auto
